@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wiq-d5-xc5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wiq-d5-xc5">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,15 +20,6 @@
                     <view key="view" contentMode="scaleToFill" id="fdl-pI-Lm8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCd-R1-LoO">
-                                <rect key="frame" x="53" y="330" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Trending" image="trending" id="14L-UK-tkf"/>
@@ -37,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="-426" y="-179"/>
         </scene>
-        <!--Library-->
+        <!--Subscriptions-->
         <scene sceneID="G5n-wa-drV">
             <objects>
                 <viewController id="Ceh-mb-IFy" sceneMemberID="viewController">
@@ -48,24 +39,15 @@
                     <view key="view" contentMode="scaleToFill" id="0NX-gD-ndR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkg-e8-BSl">
-                                <rect key="frame" x="100" y="343" width="54" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Library" image="library" id="gaY-WJ-hpg"/>
+                    <tabBarItem key="tabBarItem" title="Subscriptions" image="subscriptions" id="gaY-WJ-hpg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="euH-Qb-SL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1223" y="616"/>
         </scene>
-        <!--Subscriptions-->
+        <!--Activity-->
         <scene sceneID="qj4-qQ-KHA">
             <objects>
                 <viewController id="OXo-3N-15D" sceneMemberID="viewController">
@@ -76,22 +58,32 @@
                     <view key="view" contentMode="scaleToFill" id="tJl-54-0bB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subscriptions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2p8-k9-i3U">
-                                <rect key="frame" x="60" y="350" width="105" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Subscriptions" image="subscriptions" id="Fgv-PG-ja3"/>
+                    <tabBarItem key="tabBarItem" title="Activity" image="activity" id="Fgv-PG-ja3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yo0-7W-kJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-394" y="616"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="BET-LP-KW5">
+            <objects>
+                <viewController id="15G-Ab-z2H" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nwr-vy-aID"/>
+                        <viewControllerLayoutGuide type="bottom" id="oJT-hP-DCu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C0s-x9-HHR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Library" image="library" id="NaS-XM-BYG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2hI-iW-Fg4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="277"/>
         </scene>
         <!--Home-->
         <scene sceneID="8mg-oF-5He">
@@ -104,15 +96,6 @@
                     <view key="view" contentMode="scaleToFill" id="JAb-y4-M7j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFW-lt-x54">
-                                <rect key="frame" x="53" y="421" width="46" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="yCg-xf-b7S"/>
@@ -135,6 +118,7 @@
                         <segue destination="O8l-aV-6yC" kind="relationship" relationship="viewControllers" id="zpg-Ch-a29"/>
                         <segue destination="OXo-3N-15D" kind="relationship" relationship="viewControllers" id="Cdr-5b-Jev"/>
                         <segue destination="Ceh-mb-IFy" kind="relationship" relationship="viewControllers" id="YFh-ku-hpj"/>
+                        <segue destination="15G-Ab-z2H" kind="relationship" relationship="viewControllers" id="Z60-RY-Ziv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRW-Ts-cFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -143,6 +127,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="activity" width="16" height="20"/>
         <image name="home" width="24" height="20"/>
         <image name="library" width="20" height="16"/>
         <image name="subscriptions" width="19" height="18"/>
